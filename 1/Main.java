@@ -5,24 +5,24 @@ public class Main {
         double a,b,c;
         Scanner in = new Scanner(System.in);
         try {
-            System.out.print("Введите длину первой строноны. a = ");
+            System.out.print("Enter the length of the first side. a = ");
             a = in.nextDouble();
             if (a <= 0) throw  new Exception();
-            System.out.print("Введите длину второй строноны. b = ");
+            System.out.print("Enter the length of the second side. b = ");
             b = in.nextDouble();
             if (b <= 0) throw  new Exception();
-            System.out.print("Введите длину третьей строноны. c = ");
+            System.out.print("Enter the length of the third side. c = ");
             c = in.nextDouble();
             if (c <= 0) throw  new Exception();
-            // Треугольник можно составить только в том случае, когда сумма
-            // длин любых двух сторон больше длины третьей стороны
+            // A triangle can only be drawn up when the sum of the lengths
+	    // of any two sides is greater than the length of the third side
         if(a >= b + c || b >= a + c || c >= a + b)
-           System.out.println("К сожалению, треугольника не получится...");
-            else  System.out.println("Из этих линий можно составить треугольник!");
+           System.out.println("Unfortunately, the triangle will not be built...");
+            else  System.out.println("Using these lines you can make a triangle!");
         }
-        // Отлов исключений
+        // Catch exceptions
         catch (Exception e) {
-            System.out.println("Это не длина отрезка!");
+            System.out.println("This is not the length!");
         }
     }
 }
