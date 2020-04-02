@@ -17,7 +17,7 @@ public class Main {
         if(flag)
             System.out.println("Num " + a +" is compound number");
             else
-            System.out.println("Число " + a +" is prime number");
+            System.out.println("Num " + a +" is prime number");
         }
         // Catch exceptions
         catch (Exception e) {
