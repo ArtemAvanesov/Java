@@ -7,7 +7,7 @@ public class Main {
        String [] array2 = {"b","d","f","h","j","l","n","p","r","t","v","x","z"};
         Scanner in = new Scanner(System.in);
         try {
-            System.out.print("Введите число: ");
+            System.out.print("Enter num: ");
             int a = in.nextInt();
             if (a <= 0) throw  new Exception();
             if (array1.length < a || array2.length < a) throw  new NullPointerException();
@@ -18,14 +18,14 @@ public class Main {
                 else array3[i] = array2[i-a];
             }
             Arrays.sort(array3);
-            //Вывод полученного массива
+            //Output of the resulting array
         for(String s: array3)
             System.out.print(s + ' ');
         }
-        // Отлов исключений
-        catch (NullPointerException e) {System.out.println("Массив содержит меньше элементов, чем вы хотите!");}
+        // Catch exceptions
+        catch (NullPointerException e) {System.out.println("An array contains fewer elements than you want!");}
         catch (Exception e) {
-            System.out.println("Введено недопустимое значение!");
+            System.out.println("Incorrect data!");
         }
     }
 }
