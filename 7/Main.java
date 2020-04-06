@@ -8,7 +8,7 @@ public class Main {
 
 
         if (a==3)
-            System.out.println("a = 3");
+            System.out.println("a=3");
         else if (a<3)
             System.out.println("a<3");
         else if (a>3)
