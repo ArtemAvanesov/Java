@@ -1,4 +1,4 @@
-package com.company;
+﻿package com.company;
 
 
 public class Cat {
@@ -9,12 +9,12 @@ public class Cat {
 
     void say()
     {
-        System.out.println("Мяу!");
+        System.out.println("Meow!");
     }
 
 
     @Override
     public String toString() {
-        return "Cat[Имя: " + name + ", Порода: " + type + ", Возраст: " + age + "]";
+        return "Cat[Name: " + name + ", Type: " + type + ", Age: " + age + "]";
     }
 }

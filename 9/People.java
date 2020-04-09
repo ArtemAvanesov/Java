@@ -1,4 +1,4 @@
-package com.company;
+﻿package com.company;
 
 public class People {
     String  name;
@@ -9,6 +9,6 @@ public class People {
 
     @Override
     public String toString() {
-        return "People[Имя: " + name + ", Фамилия: " + lastName + ", Возраст: " + age + ". Есть кот: " + cat + "]";
+        return "People[First name: " + name + ", Last name: " + lastName + ", Age: " + age + ". Cat is: " + cat + "]";
     }
 }
