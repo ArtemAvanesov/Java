@@ -1,4 +1,4 @@
-package cat_package;
+﻿package cat_package;
 
 
 public class Cat extends Animals {
@@ -38,17 +38,17 @@ public class Cat extends Animals {
 
     @Override
     void eat() {
-        System.out.println("Я ем!");
+        System.out.println("I eat!");
     }
 
     public void say()
     {
-        System.out.println("Мяу!");
+        System.out.println("Meow!");
     }
 
 
     @Override
     public String toString() {
-        return "Cat[Имя: " + name + ", Порода: " + type + ", Возраст: " + age + "]";
+        return "Cat[Name: " + name + ", Type: " + type + ", Age: " + age + "]";
     }
 }
