@@ -1,6 +1,5 @@
 package people_package;
 
-
 import cat_package.Cat;
 
 public class Sportsman extends People {
@@ -19,7 +18,6 @@ public class Sportsman extends People {
 
     @Override
     public void sayHello() {
-        System.out.println("Hello!!!!!!!!");
+        System.out.println("Hello!");
     }
 }
-
