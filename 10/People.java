@@ -1,4 +1,4 @@
-package people_package;
+﻿package people_package;
 import cat_package.Cat;
 
 public class People {
@@ -54,6 +54,6 @@ public class People {
     }
     @Override
     public String toString() {
-        return "people_package[Имя: " + name + ", Фамилия: " + lastName + ", Возраст: " + age + ". Есть кот: " + cat + "]";
+        return "people_package[First name: " + name + ", Last name: " + lastName + ", Age: " + age + ". Cat is: " + cat + "]";
     }
 }
