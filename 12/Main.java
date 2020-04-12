@@ -20,8 +20,5 @@ public class Main {
         boolean empty =  list.isEmpty();
         System.out.println(empty);
 
-
     }
 }
-
-
