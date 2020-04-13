@@ -1,8 +1,8 @@
-package com.company;
+﻿package com.company;
 
 public class Cat {
-    String name; // Имя кошки
-    int age; // Возраст кошки
+    String name; // Cat name
+    int age; // Cat age
 
     Cat (String name, int age){
         this.name = name;
@@ -10,6 +10,6 @@ public class Cat {
     }
 
     public void Info(){
-        System.out.println("Имя кошки: " + this.name + ". Возраст кошки: " + this.age + ".");
+        System.out.println("Cat name is: " + this.name + ". Cat age is: " + this.age + ".");
     }
 }
