@@ -1,9 +1,9 @@
-package com.company;
+﻿package com.company;
 
 public class People {
-    String name; // Имя человека
-    int age; // Возраст человека
-    Cat cat; // Кошка
+    String name; // People name
+    int age; // People age
+    Cat cat; // Cat
 
     People (String name, int age, Cat cat){
         this.name = name;
@@ -12,6 +12,6 @@ public class People {
     }
 
     public void Info(){
-        System.out.println("Имя человека: " + this.name + ". Возраст человека: " + this.age + ". " + "Кошка: " + this.cat.name);
+        System.out.println("People name: " + this.name + ". People age: " + this.age + ". " + "Cat: " + this.cat.name);
     }
 }
