@@ -1,6 +1,5 @@
-﻿package com.company;
+﻿public class Cat {
 
-public class Cat {
     String name; // Cat name
     int age; // Cat age
 
