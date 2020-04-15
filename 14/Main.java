@@ -1,6 +1,5 @@
-﻿package com.company;
+﻿public class Main {
 
-public class Main {
     public  static  void main(String[] args) {
 
         Cat cat1 = new Cat("Murka", 5);
