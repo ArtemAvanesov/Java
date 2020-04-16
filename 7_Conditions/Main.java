@@ -1,6 +1,5 @@
-package com.company;
-
 public class Main {
+
     static boolean bool = false;
     static  int a = 5;
 
