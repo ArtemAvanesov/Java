@@ -1,7 +1,4 @@
-﻿package com.company;
-
-
-public class Cat {
+﻿public class Cat {
 
     int age;
     String type;
