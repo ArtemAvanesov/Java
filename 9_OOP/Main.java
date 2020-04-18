@@ -1,6 +1,4 @@
-﻿package com.company;
-
-public class Main {
+﻿public class Main {
 
     static Cat cat = new Cat();
     static People people = new People();
