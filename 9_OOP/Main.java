@@ -9,7 +9,6 @@
         cat.type = "Persian cat";
         cat.age = 2;
 
-
         people.name = "Alex";
         people.lastName = "Ivanov";
         people.age = 21;
